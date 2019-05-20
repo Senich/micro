@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="CombinedMicroservices" />
+        <module name="photoappapiaccountmanagement" />
+        <module name="PhotoAppApiAlbums" />
+        <module name="photoappapigateway" />
+        <module name="photoappapiusers" />
+        <module name="photoappconfigserver" />
+        <module name="photoappdiscoveryservice" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="PhotoAppApiAlbums" options="-parameters" />
+      <module name="photoappapiaccountmanagement" options="-parameters" />
+      <module name="photoappapigateway" options="-parameters" />
+      <module name="photoappapiusers" options="-parameters" />
+      <module name="photoappconfigserver" options="-parameters" />
+      <module name="photoappdiscoveryservice" options="-parameters" />
+    </option>
+  </component>
+</project>
