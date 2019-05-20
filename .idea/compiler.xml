@@ -8,13 +8,15 @@
         <outputRelativeToContentRoot value="true" />
         <module name="CombinedMicroservices" />
         <module name="photoappapiaccountmanagement" />
-        <module name="PhotoAppApiAlbums" />
         <module name="photoappapigateway" />
         <module name="photoappapiusers" />
         <module name="photoappconfigserver" />
         <module name="photoappdiscoveryservice" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="PhotoAppApiAlbums" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
